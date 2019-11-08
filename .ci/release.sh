@@ -15,7 +15,7 @@ cp .travis.settings.xml $HOME/.m2/settings.xml && mvn deploy -DskipTests=true -B
 newVersion=${TRAVIS_TAG%.*}.$((${TRAVIS_TAG##*.} + 1))
 
 # Replace first occurrence of TRAVIS_TAG with newVersion appended with SNAPSHOT
-sed -i "0,/<version>$TRAVIS_TAG/s//<version>$newVersion-SNAPSHOT/" pom.xml
+sed -i "0,/<revision>$TRAVIS_TAG/s//<revision>$newVersion-SNAPSHOT/" pom.xml
 
 git commit pom.xml -m "Upgrade version to $newVersion-SNAPSHOT" --author "Github Bot <githubbot@gluonhq.com>"
 git push https://gluon-bot:$GITHUB_PASSWORD@github.com/openjfx/javafx-maven-plugin HEAD:master
