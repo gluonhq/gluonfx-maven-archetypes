@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Decrypt encrypted files
-openssl aes-256-cbc -K $encrypted_04317ab43744_key -iv $encrypted_04317ab43744_iv -in .ci/gpg_keys.tar.enc -out gpg_keys.tar -d
+openssl aes-256-cbc -K $encrypted_2c2ee1f6355b_key -iv $encrypted_2c2ee1f6355b_iv -in .ci/gpg_keys.tar.enc -out gpg_keys.tar -d
 if [[ ! -s gpg_keys.tar ]]
    then echo "Decryption failed."
    exit 1
