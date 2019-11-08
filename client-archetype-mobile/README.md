@@ -8,9 +8,9 @@ which uses the [Gluon Client](https://docs.gluonhq.com/client/) plugin to create
 * JDK 11
 * Maven 3
 
-### Create a project from a local repository
+### Create a project
 
-Once you have installed the archetype locally, you can use it to create a new project using:
+You can create a new project, from the archetype, by executing the following command:
 
 ```
 mvn archetype:generate \
@@ -39,5 +39,6 @@ mvn archetype:generate \
         -DarchetypeVersion=0.0.1 \
         -DgroupId=groupid \
         -DartifactId=artifactId \
-        -Dversion=version
+        -Dversion=version \
+        -Djavafx-version=12
 ```

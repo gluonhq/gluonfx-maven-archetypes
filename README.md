@@ -1,7 +1,7 @@
 # Maven Archetypes for Gluon Client
 
 Maven archetypes for creating different types of Java(FX) application,
-which can compiled and run natively using [Gluon Client plugin](https://docs.gluonhq.com/client/).
+which can be compiled and run natively using [Gluon Client plugin](https://docs.gluonhq.com/client/).
 
 The project is a multi-module Maven project. Each module contains an archetype for creating a Java(FX) application.
 
@@ -12,7 +12,7 @@ The project is a multi-module Maven project. Each module contains an archetype f
 
 ### Install archetype locally
 
-To install all the archetypes in your local repository execute the following commands:
+All archetypes are published to Maven Central. However, if you wish to install the archetypes in your local repository execute the following commands:
 
 ```
 git clone https://github.com/gluonhq/client-maven-archetypes.git
