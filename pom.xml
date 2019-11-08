@@ -10,7 +10,7 @@
     <url>https://gluonhq.com/</url>
 
     <properties>
-        <revision>0.0.1-SNAPSHOT</revision>
+        <revision>0.0.1</revision>
     </properties>
 
     <modules>
