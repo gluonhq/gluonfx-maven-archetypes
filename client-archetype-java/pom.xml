@@ -7,6 +7,6 @@
     <parent>
         <groupId>com.gluonhq</groupId>
         <artifactId>client-maven-archetypes</artifactId>
-        <version>${revision}</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 </project>
