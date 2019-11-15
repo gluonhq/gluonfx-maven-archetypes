@@ -26,7 +26,7 @@ The following properties can be customized while creating the project:
 
 | Property                    | Default Value |
 | --------------------------- | ------------- |
-| client-maven-plugin-version | 0.1.1         |
+| client-maven-plugin-version | 0.1.2         |
 
 For example:
 
@@ -38,5 +38,5 @@ mvn archetype:generate \
         -DgroupId=groupid \
         -DartifactId=artifactId \
         -Dversion=version \
-        -Dclient-maven-plugin-version=0.1.0
+        -Dclient-maven-plugin-version=0.1.1
 ```
