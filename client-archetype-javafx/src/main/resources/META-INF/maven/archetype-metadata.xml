@@ -8,7 +8,7 @@
             <defaultValue>0.0.3</defaultValue>
         </requiredProperty>
         <requiredProperty key="client-maven-plugin-version">
-            <defaultValue>0.1.22</defaultValue>
+            <defaultValue>0.1.23</defaultValue>
         </requiredProperty>
     </requiredProperties>
     <fileSets>
