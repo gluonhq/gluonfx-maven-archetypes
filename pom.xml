@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gluonhq</groupId>
     <artifactId>client-maven-archetypes</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
     <name>Maven Archetypes for Gluon Client</name>
     <description>Maven archetypes for creating different types of Gluon Client applications.</description>
