@@ -16,7 +16,7 @@ You can create a new project, from the archetype, by executing the following com
 mvn archetype:generate \
         -DarchetypeGroupId=com.gluonhq \
         -DarchetypeArtifactId=client-archetype-javafx \
-        -DarchetypeVersion=0.0.1 \
+        -DarchetypeVersion=0.0.2 \
         -DgroupId=groupid \
         -DartifactId=artifactId \
         -Dversion=version
@@ -36,7 +36,7 @@ For example:
 mvn archetype:generate \
         -DarchetypeGroupId=com.gluonhq \
         -DarchetypeArtifactId=client-archetype-javafx \
-        -DarchetypeVersion=0.0.1 \
+        -DarchetypeVersion=0.0.2 \
         -DgroupId=groupid \
         -DartifactId=artifactId \
         -Dversion=version \
