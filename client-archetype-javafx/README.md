@@ -26,9 +26,9 @@ The following properties can be customized while creating the project:
 
 | Property                    | Default Value |
 | --------------------------- | ------------- |
-| javafx-version              | 13.0.1        |
-| javafx-maven-plugin-version | 0.0.3         |
-| client-maven-plugin-version | 0.1.3         |
+| javafx-version              | 14.0.2.1      |
+| javafx-maven-plugin-version | 0.0.4         |
+| client-maven-plugin-version | 0.1.31        |
 
 For example:
 

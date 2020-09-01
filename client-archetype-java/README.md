@@ -26,7 +26,7 @@ The following properties can be customized while creating the project:
 
 | Property                    | Default Value |
 | --------------------------- | ------------- |
-| client-maven-plugin-version | 0.1.3         |
+| client-maven-plugin-version | 0.1.31        |
 
 For example:
 
