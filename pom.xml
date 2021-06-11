@@ -2,17 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gluonhq</groupId>
-    <artifactId>client-maven-archetypes</artifactId>
+    <artifactId>gluonfx-maven-archetypes</artifactId>
     <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Maven Archetypes for Gluon Client</name>
-    <description>Maven archetypes for creating different types of Gluon Client applications.</description>
+    <name>Maven Archetypes for GluonFX</name>
+    <description>Maven archetypes for creating different types of GluonFX applications.</description>
     <url>https://gluonhq.com/</url>
 
     <modules>
-      <module>client-archetype-java</module>
-      <module>client-archetype-javafx</module>
-      <module>client-archetype-mobile</module>
+      <module>gluonfx-archetype-java</module>
+      <module>gluonfx-archetype-javafx</module>
+      <module>gluonfx-archetype-mobile</module>
     </modules>
 
     <build>
