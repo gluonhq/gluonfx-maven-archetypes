@@ -16,7 +16,7 @@ You can create a new project, from the archetype, by executing the following com
 mvn archetype:generate \
         -DarchetypeGroupId=com.gluonhq \
         -DarchetypeArtifactId=gluonfx-archetype-java \
-        -DarchetypeVersion=0.0.2 \
+        -DarchetypeVersion=0.0.3 \
         -DgroupId=groupid \
         -DartifactId=artifactId \
         -Dversion=version
@@ -26,7 +26,7 @@ The following properties can be customized while creating the project:
 
 | Property                     | Default Value |
 | ---------------------------- | ------------- |
-| gluonfx-maven-plugin-version | 0.9.0         |
+| gluonfx-maven-plugin-version | 1.0.3         |
 
 For example:
 
