@@ -11,11 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>11</maven.compiler.release>
         <javafx.version>${javafx-version}</javafx.version>
-        <glisten.version>6.0.5</glisten.version>
-        <attach.version>4.0.8</attach.version>
+        <glisten.version>6.0.6</glisten.version>
+        <attach.version>4.0.11</attach.version>
         <mainClassName>${package}.HelloGluon</mainClassName>
     </properties>
 
@@ -70,9 +69,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
-                <configuration>
-                    <release>11</release>
-                </configuration>
             </plugin>
 
             <plugin>
@@ -89,17 +85,13 @@
                 <artifactId>gluonfx-maven-plugin</artifactId>
                 <version>${gluonfx-maven-plugin-version}</version>
                 <configuration>
-                    <!-- Uncomment to run on iOS: -->
-                    <!-- <target>ios</target>-->
+                     <target>${gluonfx.target}</target>
                     <attachList>
                         <list>display</list>
                         <list>lifecycle</list>
                         <list>statusbar</list>
                         <list>storage</list>
                     </attachList>
-                    <reflectionList>
-                        <list>com.gluonhq.impl.charm.glisten.control.skin.GlistenButtonSkin</list>
-                    </reflectionList>
                     <mainClass>${mainClassName}</mainClass>
                 </configuration>
             </plugin>
@@ -107,10 +99,18 @@
 
     </build>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>gluon-releases</id>
-            <url>https://nexus.gluonhq.com/nexus/content/repositories/releases/</url>
-        </pluginRepository>
-    </pluginRepositories>
+    <profiles>
+        <profile>
+            <id>ios</id>
+            <properties>
+                <gluonfx.target>ios</gluonfx.target>
+            </properties>
+        </profile>
+        <profile>
+            <id>android</id>
+            <properties>
+                <gluonfx.target>android</gluonfx.target>
+            </properties>
+        </profile>
+    </profiles>
 </project>
