@@ -8,7 +8,7 @@
             <defaultValue>0.0.6</defaultValue>
         </requiredProperty>
         <requiredProperty key="gluonfx-maven-plugin-version">
-            <defaultValue>1.0.14</defaultValue>
+            <defaultValue>1.0.15</defaultValue>
         </requiredProperty>
     </requiredProperties>
     <fileSets>
